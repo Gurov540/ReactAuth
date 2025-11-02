@@ -1,0 +1,96 @@
+/* Button.module.css */
+
+/* Базовые стили */
+.buttonBase {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* --- Стили размеров --- */
+
+.size-small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.size-medium {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.size-large {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* --- Стили вариантов (Цвет/Фон) --- */
+
+/* Primary */
+.variant-primary {
+  background-color: #007bff;
+  color: white;
+}
+.variant-primary:hover:not(.disabled) {
+  background-color: #0056b3;
+}
+
+/* Secondary */
+.variant-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.variant-secondary:hover:not(.disabled) {
+  background-color: #5a6268;
+}
+
+/* Danger */
+.variant-danger {
+  background-color: #dc3545;
+  color: white;
+}
+.variant-danger:hover:not(.disabled) {
+  background-color: #c82333;
+}
+
+/* Link (как текстовая кнопка) */
+.variant-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  padding: 0;
+  text-decoration: underline;
+}
+.variant-link:hover:not(.disabled) {
+  color: #0056b3;
+}
+
+/* --- Состояние Disabled --- */
+
+.disabled,
+[aria-disabled="true"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* --- Стилизация иконок --- */
+.iconLeft {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+.iconRight {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
