@@ -1,20 +1,21 @@
+/* ==== default ==== */
 .input {
   border: none;
   border-radius: 12px;
   transition: all 0.25s ease;
   color: #111827;
+  outline: 2px solid #d1d5db;
+}
+
+.input:hover {
+  outline-color: #1e3fa6;
+}
+
+.input:focus {
+  outline-color: #1e3fa6;
 }
 
 /* ===== Variants ===== */
-.primary {
-  outline: 2px solid #2563eb;
-}
-.primary:hover {
-  outline-color: #1e3fa6;
-}
-.primary:active {
-  border-color: #1e3fa6;
-}
 
 .secondary {
   background: #e5e7eb;
