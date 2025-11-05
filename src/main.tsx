@@ -6,7 +6,9 @@ import { Input } from "@/shared/ui/Input";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Button>Кнопка</Button>
-    <Input color="primary"></Input>
+    <div>
+      <Button>Button</Button>
+      <Input color="primary"></Input>
+    </div>
   </StrictMode>
 );
