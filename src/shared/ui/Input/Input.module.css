@@ -1,0 +1,62 @@
+.input {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+  color: #111827;
+}
+
+/* ===== Variants ===== */
+.primary {
+  outline: 2px solid #2563eb;
+}
+.primary:hover {
+  outline-color: #1e3fa6;
+}
+.primary:active {
+  border-color: #1e3fa6;
+}
+
+.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+.secondary:hover {
+  background: #d1d5db;
+}
+
+.outline {
+  border: 1px solid #6b7280;
+  color: #111827;
+  background: transparent;
+}
+.outline:hover {
+  background: #f3f4f6;
+}
+
+/* ===== Sizes ===== */
+.sm {
+  padding: 6px 14px;
+  font-size: 14px;
+}
+
+.md {
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+.lg {
+  padding: 14px 24px;
+  font-size: 18px;
+}
+
+/* Full width */
+.fullWidth {
+  width: 100%;
+}
+
+/* Disabled */
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
